@@ -73,7 +73,7 @@ class HBNBCommand(cmd.Cmd):
                 pline = pline[2].strip()  # pline is now str
                 if pline:
                     # check for *args or **kwargs
-                    if pline[0] is '{' and pline[-1] is'}'\
+                    if pline[0] == '{' and pline[-1] =='}'\
                             and type(eval(pline)) is dict:
                         _args = pline
                     else:
@@ -113,53 +113,34 @@ class HBNBCommand(cmd.Cmd):
         """ Overrides the emptyline method of CMD """
         pass
 
+
     def do_create(self, args):
-        """Create an object of any class with given parameters."""
-    if not args:
-        print("** class name missing **")
-        return
+        """ Create an object of any class with given parameters."""
 
-    # Splitting the command into class name and parameters
-    args_list = args.split()
-
-    class_name = args_list[0]
-
-    # Checking if the class exists
-    if class_name not in HBNBCommand.classes:
-        print("** class doesn't exist **")
-        return
-
-    # Remove the class name from the list
-    args_list.pop(0)
-
-    # Parsing parameters
-    kwargs = {}
-    for param in args_list:
-        # Splitting parameter into key and value
-        key, value = param.split('=')
-
-        # Handling string values
-        if value.startswith('"') and value.endswith('"'):
-            value = value[1:-1].replace('_', ' ').replace('\\"', '"')
-
-        # Handling float values
-        elif '.' in value:
-            value = float(value)
-
-        # Handling integer values
-        else:
-            value = int(value)
-
-        # Add key-value pair to kwargs
-        kwargs[key] = value
-
-    # Create an instance of the class with parameters
-    new_instance = HBNBCommand.classes[class_name](**kwargs)
-
-    # Save the instance then print its ID
-    storage.save()
-    print(new_instance.id)
-    storage.save()
+        if len(args) == 0:
+            print("** class name missing **")
+            return
+        try:
+            args = shlex.split(args)
+            new_instance = eval(args[0])()
+            for n in args[1:]:
+                try:
+                    key = n.split("=")[0]
+                    value = n.split("=")[1]
+                    if hasattr(new_instance, key) is True:
+                        value = value.replace("_", " ")
+                        try:
+                            value = eval(value)
+                        except:
+                            pass
+                        setattr(new_instance, key, value)
+                except (ValueError, IndexError):
+                    pass
+            new_instance.save()
+            print(new_instance.id)
+        except:
+            print("** class doesn't exist **")
+            return
 
 
     def help_create(self):
