@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" """
+"""This module is used to test the BaseModel Class """
 from models.base_model import BaseModel
 import unittest
 import datetime

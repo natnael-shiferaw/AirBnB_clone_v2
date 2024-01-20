@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" """
+"""This module is used to test Amenity Class """
 from tests.test_models.test_base_model import test_basemodel
 from models.amenity import Amenity
 
