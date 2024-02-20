@@ -692,8 +692,6 @@ guillaume@ubuntu:~$ curl 0.0.0.0:5000/cities_by_states ; echo ""
 guillaume@ubuntu:~$
 ```
 
-![Alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/9a7ae8155274b17881442200437e8793cf08de48.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230426%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230426T075643Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d2f5ad92ab9c05681225151ce3955b9a535b689b586ac364f4f50dd1f790c2f6 "a title")
-
 **Repo:**
 
 - GitHub repository: `AirBnB_clone_v2`
@@ -866,15 +864,6 @@ guillaume@ubuntu:~/AirBnB_v2$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_p
 ....
 ```
 
-In the Browser:
-![Alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/4f993ec8ca2a2f639a80887667106ac63a0a3701.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230426%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230426T075643Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=193cf4bc2d495b24f20913c05c1bef3cfcd863795ed97739ab475dc6e47a54a6 "a title")
-
-![Alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/1549b553d726cc37f64440be910cb6b858aa32ae.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230426%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230426T075643Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=857451b60f7b9480ffa8ba435221c8b3cf7f2322a051a67a169ff24cd3ffe77c "a title")
-
-![Alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/94b3a416ba1551c59701eb6672ac0a36fbebba14.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230426%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230426T075643Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=7d467e81ea5790c3b6f1286d5cfdf9aebc33901551bfc24d04a2a8be39757248 "a title")
-
-![Alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/1e559707dd34a37564dc10e54b707815a516d363.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230426%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230426T075643Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=2e21721304c8ee889621e5d2c920b494d2d47507f97365cf7069fbbcec9b91d9 "a title")
-
 **Repo:**
 
 - GitHub repository: `AirBnB_clone_v2`
@@ -918,18 +907,6 @@ guillaume@ubuntu:~/AirBnB_v2$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_p
 * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 ....
 ```
-
-In the browser:
-
-![Alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/396ae10c9f85a6128ae40e1b63f4bce95adf411c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230426%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230426T075643Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=6ee9965dbdbf0caf5076a476f4267bed93e2a37c5d96deb9987c9385894f1a2f "a title")
-
-![Alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/9eb21499b5f3b59751fdbf561174e2f259d97482.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230426%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230426T075643Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=7eb1c1fc10a0893cee6c52b99d284c2215e0d620f1f7eebe067c022e0e1eb144 "a title")
-
-![Alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/bf248a63c15a746ad694acffdd56d80281782c71.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230426%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230426T075643Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=81b1c1e94ac161c4e57a19594a7fa71384f84f212c76ab6a5b9037ccf22e0ba9"a title")
-
-![Alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/494317aad058a649a51f416eceee1a609f07c6c0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230426%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230426T075643Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=019d3502afbdfd4b46e618c4dc15b68ec3e687167a5377f67e04d7a0fcc70bfa"a title")
-
-![Alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/016911388aa92532e06c4d5361188a2622425517.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230426%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230426T075643Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=9b10654e762dd85a8a758ea364903d109e41a335ae9987e9eaf60249a004da57"a title")
 
 **Repo:**
 
